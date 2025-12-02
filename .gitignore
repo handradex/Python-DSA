@@ -1,0 +1,97 @@
+# ========================================
+# PYTHON
+# ========================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.pkl
+*.db
+*.sqlite
+*.sqlite3
+
+# Virtual envs
+venv/
+env/
+ENV/
+.venv/
+
+# ========================================
+# JUPYTER NOTEBOOKS
+# ========================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# ========================================
+# CONFIGURAÇÕES / SENSÍVEIS
+# ========================================
+*.env
+.env.*
+*.ini
+*.cfg
+*.conf
+*.yaml
+*.yml
+credentials.json
+secret*.json
+
+# ========================================
+# ARQUIVOS DO SISTEMA
+# ========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================================
+# LOGS
+# ========================================
+*.log
+logs/
+
+# ========================================
+# DADOS (gerados localmente)
+# ========================================
+data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.xlsx
+*.xls
+
+# Se você quiser manter datasets, remova as extensões específicas acima.
+
+# ========================================
+# CÓDIGOS COMPILADOS / CACHE
+# ========================================
+.cache/
+.pytest_cache/
+.mypy_cache/
+__temp__/
+tmp/
+
+# ========================================
+# IDEs
+# ========================================
+# VSCode
+.vscode/
+
+# PyCharm / JetBrains
+.idea/
+
+# ========================================
+# RESULTADOS / EXPORTAÇÕES
+# ========================================
+outputs/
+export/
+plots/
+figures/
+reports/
+
+# ========================================
+# BIBLIOTECAS INSTALADAS (não versionar)
+# ========================================
+site-packages/
